@@ -52,9 +52,11 @@ footer{
 }
 
 .social{
-    
     width: 50px;
+}
 
+.video{
+    width: 800px;
 }
 
 .photo{
@@ -63,10 +65,24 @@ footer{
 }
 
 .photoLista{
-    width: 400px;
+    max-width: 100%;
+}
+
+.containerNav{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media(max-width: 500px){
+    .container{
+        flex-direction: column;
+    }   
 }
 
 .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
     display: flex;
 }
@@ -78,9 +94,11 @@ footer{
     }   
 }
 
+
 .container > div {
+    padding: 20px;
     text-align: center;
-    width:400px;
+    max-width:400px;
 }
 
 .nav-button{
