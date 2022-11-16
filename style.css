@@ -72,6 +72,7 @@ footer{
     display: flex;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 .container {
