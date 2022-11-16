@@ -74,24 +74,11 @@ footer{
     padding: 0px;
 }
 
-@media(max-width: 500px){
-    .container{
-        flex-direction: column;
-    }   
-}
-
 .container {
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
     display: flex;
-}
-
-
-@media(max-width: 500px){
-    .container{
-        flex-direction: column;
-    }   
 }
 
 
@@ -113,4 +100,17 @@ footer{
     
     background-color: white;
     color: white;
+}
+
+@media(max-width: 500px){
+    .container{
+        flex-direction: column;
+    }   
+    .containerNav{
+        flex-direction: column;
+    }
+    .nav-button{
+        margin: 0px;
+
+    }
 }
